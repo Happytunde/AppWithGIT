@@ -20,6 +20,8 @@ namespace AppWithGIT
         {
             // Set up configuration sources.
 
+            //Trying out GIT with visual studio 2015
+
             var builder = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
