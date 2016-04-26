@@ -16,6 +16,7 @@ using AppWithGIT.ViewModels.Account;
 namespace AppWithGIT.Controllers
 {
     [Authorize]
+    //Comment in the Account Controller
     public class AccountController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
